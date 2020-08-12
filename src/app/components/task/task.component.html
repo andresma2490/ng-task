@@ -1,0 +1,26 @@
+<div class="card m-1">
+    <div class="card-body" *ngIf="!editing">
+        <h3>{{ task.title }}</h3>
+        <h4 class="text-muted">{{ task.description }}</h4>
+        
+        <hr/>
+        <button (click)="editing=!editing" class="btn btn-info">
+            Edit
+        </button>
+        <button (click)="deleteTask()" class="btn btn-outline-danger ml-1">
+            Delete
+        </button>
+    </div>  
+
+    <div class="card-body" *ngIf="editing">
+        <form (submit)="addOrEditTask()">
+            <input class="form-control" type="text" name="title" placeholder="title" [(ngModel)]="task.title" required/><br/>
+            <textarea class="form-control" rows="3" cols="17" name="description" placeholder="description" [(ngModel)]="task.description" required></textarea><br/>
+            <button class="btn btn-success" type="submit">
+                Save
+            </button>
+        </form>
+    </div>
+</div>
+
+
