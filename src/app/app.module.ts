@@ -11,12 +11,14 @@ import { AngularFirestoreModule } from '@angular/fire/firestore'
 import { environment } from '../environments/environment.prod';
 import { TaskComponent } from './components/task/task.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskComponent,
-    TaskListComponent
+    TaskListComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
