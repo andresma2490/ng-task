@@ -1,0 +1,13 @@
+{
+  "appId": "com.ngtasks.www.app",
+  "appName": "ng-tasks",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/ng-tasks",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

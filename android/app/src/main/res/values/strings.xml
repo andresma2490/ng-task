@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ng-tasks</string>
+    <string name="title_activity_main">ng-tasks</string>
+    <string name="package_name">com.ngtasks.www.app</string>
+    <string name="custom_url_scheme">com.ngtasks.www.app</string>
+</resources>
