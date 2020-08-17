@@ -14,4 +14,4 @@ ng server
 
 ## Android Apk
 
-find it [here](https://github.com/andresma2490/ngng/android/app/build/outputs/apk/debug)
+find it [here](https://github.com/andresma2490/ngng/tree/master/android/app/build/outputs/apk/debug)
